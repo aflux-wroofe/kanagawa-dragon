@@ -1,0 +1,33 @@
+{
+  "name": "kanagawa-dragon",
+  "displayName": "Kanagawa Dragon",
+  "description": "A dark, earthy VS Code theme based on the Dragon variant of Kanagawa.",
+  "version": "1.0.0",
+  "publisher": "williamroofe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aflux-wroofe/kanagawa-dragon.git"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "kanagawa",
+    "dragon",
+    "dark",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kanagawa Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-dragon-color-theme.json"
+      }
+    ]
+  }
+}
