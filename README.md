@@ -4,14 +4,16 @@ VS Code colour themes based on the [Kanagawa](https://github.com/rebelot/kanagaw
 
 ## Variants
 
+- **Kanagawa Wave**: the standard dark theme, deep blue ink
 - **Kanagawa Dragon**: dark and earthy
+- **Kanagawa Lotus**: light, warm paper
 
 ## Install
 
 Install from the packaged VSIX:
 
 ```
-code --install-extension kanagawa-1.0.0.vsix
+code --install-extension kanagawa-1.1.0.vsix
 ```
 
 Or in VS Code: **Extensions** → `...` menu → **Install from VSIX...**

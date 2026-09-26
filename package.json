@@ -2,7 +2,7 @@
   "name": "kanagawa",
   "displayName": "Kanagawa",
   "description": "VS Code themes based on the Kanagawa colour scheme.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "williamroofe",
   "license": "MIT",
   "repository": {
@@ -17,16 +17,29 @@
   ],
   "keywords": [
     "kanagawa",
+    "wave",
     "dragon",
+    "lotus",
     "dark",
+    "light",
     "theme"
   ],
   "contributes": {
     "themes": [
       {
+        "label": "Kanagawa Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanagawa-wave-color-theme.json"
+      },
+      {
         "label": "Kanagawa Dragon",
         "uiTheme": "vs-dark",
         "path": "./themes/kanagawa-dragon-color-theme.json"
+      },
+      {
+        "label": "Kanagawa Lotus",
+        "uiTheme": "vs",
+        "path": "./themes/kanagawa-lotus-color-theme.json"
       }
     ]
   }
