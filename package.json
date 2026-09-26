@@ -1,8 +1,8 @@
 {
   "name": "kanagawa",
-  "displayName": "Kanagawa",
-  "description": "VS Code themes based on the Kanagawa colour scheme.",
-  "version": "1.1.0",
+  "displayName": "Kanagawa & Kanso",
+  "description": "VS Code themes based on the Kanagawa and Kanso colour schemes.",
+  "version": "1.2.0",
   "publisher": "williamroofe",
   "license": "MIT",
   "repository": {
@@ -20,6 +20,11 @@
     "wave",
     "dragon",
     "lotus",
+    "kanso",
+    "zen",
+    "ink",
+    "mist",
+    "pearl",
     "dark",
     "light",
     "theme"
@@ -29,17 +34,37 @@
       {
         "label": "Kanagawa Wave",
         "uiTheme": "vs-dark",
-        "path": "./themes/kanagawa-wave-color-theme.json"
+        "path": "./themes/kanagawa/kanagawa-wave-color-theme.json"
       },
       {
         "label": "Kanagawa Dragon",
         "uiTheme": "vs-dark",
-        "path": "./themes/kanagawa-dragon-color-theme.json"
+        "path": "./themes/kanagawa/kanagawa-dragon-color-theme.json"
       },
       {
         "label": "Kanagawa Lotus",
         "uiTheme": "vs",
-        "path": "./themes/kanagawa-lotus-color-theme.json"
+        "path": "./themes/kanagawa/kanagawa-lotus-color-theme.json"
+      },
+      {
+        "label": "Kanso Zen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanso/kanso-zen-color-theme.json"
+      },
+      {
+        "label": "Kanso Ink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanso/kanso-ink-color-theme.json"
+      },
+      {
+        "label": "Kanso Mist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kanso/kanso-mist-color-theme.json"
+      },
+      {
+        "label": "Kanso Pearl",
+        "uiTheme": "vs",
+        "path": "./themes/kanso/kanso-pearl-color-theme.json"
       }
     ]
   }
